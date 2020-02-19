@@ -1,0 +1,127 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+        }
+.container1{
+    display:flex;
+    justify-content: space-between;            
+    max-height:75px;
+    line-height: 75px;
+    padding-left:30px;
+}
+.menubar{
+    display:flex;
+}
+.menubar div{
+    margin-right:30px;
+}
+.search{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:rgb(247, 124, 23);
+    min-height: 350px;
+    font-size: 25px;
+}
+
+.containerbesar{
+    display:flex;
+    padding-top:  75px;
+    justify-content: center;
+}
+.containerbesar .card{
+    display:flex;
+    flex-basis: 85%;
+    flex-direction: column;
+    border:5px solid black
+
+}
+.containerbesar .card .gambarbesar{
+    display:flex;
+    background-color: rgb(26, 36, 128);
+    height: 300px;
+}
+.containerbesar .card .tulisanbesar{
+    display:flex;
+    padding:0 75px; 
+    font-size: 20px;
+}
+.containerbesar .card .menubesar{
+    display:flex;
+    padding:0 75px;
+}
+.menubesar div{
+    margin-right: 30px; 
+    font-size: 12px;
+}
+.tulisanbiasa{
+    padding:0 75px; 
+    font-size: 16px;
+}
+.container3cards, .container4cards{
+    display:flex;
+    flex-direction: column;
+    padding: 0 75px;
+}
+.container3-1, .container4-1{
+    margin-top:20px;
+    padding: 25px 0;
+    display:flex;
+    flex:1;
+    max-height:100px;
+    font-size: 20px;
+    line-height: 30px; 
+    box-sizing: border-box;
+}
+.container3-2, .container4-2{
+    display:flex;
+    flex:1;
+    justify-content: space-between;
+}
+.container3cards .card{
+    flex-basis: 32%;
+    box-sizing: border-box;
+    height: 300px;
+    flex-direction: column;
+}
+.container4cards .card{
+    box-sizing: border-box;
+    flex-basis: 23.5%;
+    height: 200px;
+    flex-direction: column;
+}  
+.tulisankecil{
+    margin-top:5px;
+    font-size: 12px;
+}
+.gambar{
+    height:70%;
+    margin-bottom: 5px;
+    background-color: rgb(26, 36, 128);
+    border-radius:15px;
+}
+.reverserow{
+    display:flex;
+    flex-direction: row;
+
+}
+.gambardivide, .tulisandivide{
+    flex:1;
+}
+.gambardiv{
+    background-color: rgb(26, 36, 128);
+    flex:1;
+    height: 100px;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+.tulisandiv{
+    flex:1;
+    height: 100px;
+}
+.footer{
+    height:300px;
+    background-color: rgb(23, 24, 23);
+}
